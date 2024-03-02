@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - image: sergo2211/app:latest
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           name: app-web
       terminationGracePeriodSeconds: 30
 
